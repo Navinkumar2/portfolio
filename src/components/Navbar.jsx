@@ -1,4 +1,6 @@
 import { useEffect } from "react";
+import { Link } from "react-scroll";
+
 
 export const Navbar = ({ menuOpen, setMenuOpen }) => {
   useEffect(() => {
@@ -19,36 +21,11 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
           >
             &#9776;
           </div>
-
           <div className="hidden md:flex items-center space-x-8">
-            <a
-              href="#home"
-              className="text-gray-300 hove:text-white transition-colors"
-            >
-              {" "}
-              Home
-            </a>
-            <a
-              href="#about"
-              className="text-gray-300 hove:text-white transition-colors"
-            >
-              {" "}
-              About{" "}
-            </a>
-            <a
-              href="#projects"
-              className="text-gray-300 hove:text-white transition-colors"
-            >
-              {" "}
-              Projects{" "}
-            </a>
-            <a
-              href="#contact"
-              className="text-gray-300 hove:text-white transition-colors"
-            >
-              {" "}
-              Contact{" "}
-            </a>
+            <Link to="home" smooth={true} duration={500} spy={true} offset={-70} className="text-gray-300 hover:text-white transition-colors cursor-pointer">Home</Link>
+            <Link to="about" smooth={true} duration={500} spy={true} offset={-70} className="text-gray-300 hover:text-white transition-colors cursor-pointer">About</Link>
+            <Link to="projects" smooth={true} duration={500} spy={true} offset={-70} className="text-gray-300 hover:text-white transition-colors cursor-pointer">Projects</Link>
+            <Link to="contact" smooth={true} duration={500} spy={true} offset={-70} className="text-gray-300 hover:text-white transition-colors cursor-pointer">Contact</Link>
           </div>
         </div>
       </div>
