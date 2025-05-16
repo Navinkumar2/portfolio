@@ -1,4 +1,4 @@
-import cvPdf from '../assets/Navin Resume.pdf';
+import cvPdf from '../assets/Navinkumar.pdf';
 
 export const Home = () => {
   return (
