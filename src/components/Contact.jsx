@@ -20,8 +20,9 @@ export const Contact = () => {
           <div className="flex items-center gap-4">
             <FaEnvelope className="text-blue-400 text-2xl" />
             <a
-              href="mailto:navinkumar21000@gmail.com"
-              className="text-lg font-medium hover:underline"
+              href="https://mail.google.com/mail/?view=cm&to=navinkumar21000@gmail.com"
+              target="_blank"
+              class="text-lg font-medium hover:underline"
             >
               navinkumar21000@gmail.com
             </a>
@@ -30,7 +31,7 @@ export const Contact = () => {
           <div className="flex items-center gap-4">
             <FaLinkedin className="text-blue-400 text-2xl" />
             <a
-              href="https://linkedin.com/in/yourprofile"
+              href="https://linkedin.com/in/navin-kumar-s"
               target="_blank"
               rel="noopener noreferrer"
               className="text-lg font-medium hover:underline"
