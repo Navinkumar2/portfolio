@@ -1,4 +1,4 @@
-import cvPdf from '../assets/Navinkumar.pdf';
+import cvPdf from "../assets/Navinkumar Resume.pdf";
 
 export const Home = () => {
   return (
@@ -12,10 +12,12 @@ export const Home = () => {
         </h1>
 
         <p className="tex-gray-400 text-lg mb-8 max-w-lg mx-auto">
-          Web Developer with a solid foundation in front-end, including
-          HTML, CSS, JavaScript, and React.js. Passionate about building user-friendly, scalable web
-          applications. Proven ability to deliver functional projects through academic and personal experience.
-          Strong problem-solving skills and eager to learn in a professional tech environment.
+          Web Developer with a solid foundation in front-end, including HTML,
+          CSS, JavaScript, and React.js. Passionate about building
+          user-friendly, scalable web applications. Proven ability to deliver
+          functional projects through academic and personal experience. Strong
+          problem-solving skills and eager to learn in a professional tech
+          environment.
         </p>
         <div className="flex justify-center space-x-4">
           <a
